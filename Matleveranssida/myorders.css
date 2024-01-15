@@ -1,0 +1,146 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #524E4E;
+    font-family: 'Inika', serif;
+}
+
+
+header {
+    background-color: #625a5a;
+    width: 100%;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header ul li {
+    color: black;
+    
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon {
+    width: 40px; 
+    float: right;
+    right: 40px;
+    position: absolute;
+
+}
+
+footer {
+    color: white;
+    background-color: #625a5a;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.div10 {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    margin: 0 20px;
+}
+
+.div1 {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    place-items: center;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    padding: 15px;
+    gap: 10px;
+}
+
+.knapp  {
+    background-color: #D9D9D9;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 15px 25px;
+    border: none;
+}
+
+main {
+    margin-top: 280px;
+
+}
+
+.knapp2 {
+    background-color: #A39292;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 25px;
+    font-family: 'inika', serif;
+    margin: 0 0 20px 20px;
+}
+
+@media screen and (min-width: 1600px){
+ 
+    .div10 {
+        grid-template-columns: repeat(3,auto);
+
+    }
+
+    footer {
+        font-size: 30px;
+        position: absolute;
+        bottom: 0;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    header ul {
+        gap: 60px;
+        padding: 10 0 10px 50px;
+    }
+
+    header ul li a {
+        font-size: 30px;
+    }
+
+    .icon {
+        width: 60px;
+        right: 30px;
+    }
+
+    .div1 {
+        margin: 0 50px;
+    }
+
+    .knapp {
+        border-radius: 40px;
+    }
+
+    .knapp2 {
+        font-size: 45px;
+        bottom: 100px;
+        margin: 0 0 50px 450px;
+    }
+
+
+}

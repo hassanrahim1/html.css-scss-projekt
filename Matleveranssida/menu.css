@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #524E4E;
+    font-family: 'Inika', serif;
+}
+
+
+header {
+    background-color: #625a5a;
+    width: 100%;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header ul li {
+    color: black;
+    
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon {
+    width: 30px; 
+    float: right;
+    right: 50px;
+    position: absolute;
+
+}
+
+footer {
+    color: white;
+    background-color: #625a5a;
+    width: 100%;
+    font-size: 20px;
+    margin: 0;
+    margin-top: auto;
+    padding: 20px 0;
+}
+
+.mContent {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+div h1 {
+    margin: auto;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.div10 {
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+    gap: 60px;
+    margin-bottom: 40px;
+
+}
+
+.div10 img {
+    text-decoration: underline;
+}
+
+.div10 h2, h3 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+}
+
+
+.div1 {
+    display: grid;
+    grid-template-rows: auto;
+    place-items: center;
+}
+
+.header1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.knapp  {
+    background-color: #D9D9D9;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'inika', serif;
+}
+
+@media screen and (min-width: 900px) {
+    header ul {
+        gap: 60px;
+        padding: 10px 0 10px 50px;
+    }
+
+    header ul li a {
+        font-size: 30px;
+    }
+
+    .icon {
+        width: 40px;
+        right: 45px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        font-size: 30px;
+    }
+
+    .mContent {
+        padding: 30px;
+    }
+
+    div h1 {
+        font-size: 40px;
+    }
+
+    .div10 {
+        grid-template-columns: auto auto auto;
+        padding: 0 300px;
+    }
+
+    .div10 h2, h3 {
+        font-size: 20px;
+    }
+
+    .header1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .knapp {
+        font-size: 20px;
+        border-radius: 30px;
+        padding: 15px 25px;
+    }
+}

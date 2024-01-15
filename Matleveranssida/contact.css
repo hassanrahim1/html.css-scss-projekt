@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #524E4E;
+  font-family: "Inika", serif;
+}
+
+header {
+  background-color: #625a5a;
+  width: 100%;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 10px 0 10px 10px;
+  box-sizing: border-box;
+}
+header ul li {
+  color: black;
+}
+header ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icon {
+  width: 40px;
+  float: right;
+  right: 40px;
+  position: absolute;
+}
+
+footer {
+  color: white;
+  background-color: #625a5a;
+  width: 100%;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.box {
+  display: block;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  bottom: 50%;
+  margin: 30px 0;
+}
+.box div {
+  margin-top: 30px;
+}
+
+.knapp3 {
+  background-color: #D9D9D9;
+  font-size: 30px;
+  font-family: "inika", serif;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  padding: 2.5px 17.5px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+main div form input {
+  border-radius: 25px;
+  border: 0;
+  font-size: 20px;
+}
+
+.divmain2 img {
+  width: 75%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  header ul {
+    gap: 60px;
+    padding: 10px 0 10px 50px;
+  }
+  header ul li a {
+    font-size: 30px;
+  }
+  .icon {
+    width: 60px;
+    right: 30px;
+  }
+  footer {
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+  }
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+  main div form input {
+    font-size: 25px;
+  }
+  .divmain2 {
+    padding: 75px;
+  }
+  .divmain2 img {
+    margin-right: -20px;
+  }
+  .box {
+    float: right;
+    margin-top: 15%;
+  }
+}/*# sourceMappingURL=contact.css.map */
